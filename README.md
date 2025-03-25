@@ -10,15 +10,15 @@ Interoperability workbench data model editor backend
 ## Development
 
 ### Checkout library projects
-- yti-spring-migration
-- yti-spring-security
+- [yti-spring-migration](https://github.com/VRK-YTI/yti-spring-migration): Framework for implementing persistent layer migrations
+- [yti-spring-security](https://github.com/VRK-YTI/yti-spring-security): Shared spring security config between applications
 
 Checkout corresponding tag for version defined in build.gradle, e.g. `git checkout v0.2.0`
 Install package to local maven repository `./gradlew publishToMavenLocal`
 
 ### Checkout other required projects
-- yti-groupmanagement
-- yti-fuseki
+- [yti-groupmanagement](https://github.com/VRK-YTI/yti-groupmanagement)
+- [yti-fuseki](https://github.com/VRK-YTI/yti-fuseki): Custom fuseki container build for YTI
 
 For each project run `build.sh` located at the project root folder. The script builds a docker image for the project.
 
